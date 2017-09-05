@@ -4,7 +4,7 @@ use CV\{
 };
 use function CV\{
     putText, imshow, waitKey, namedWindow, imread,
-    blur, GaussianBlur, medianBlur, bilateralFilter
+    blur, GaussianBlur, medianBlur, bilateralFilter,moveWindow
 };
 
 use const CV\{
@@ -55,6 +55,7 @@ function run()
 {
     global $windowName, $src, $dst;
     namedWindow($windowName, WINDOW_AUTOSIZE);
+    moveWindow($windowName,0,0);
 
     // Load the source image
     $src = imread("lena.jpg", IMREAD_COLOR);
