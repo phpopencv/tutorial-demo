@@ -1,7 +1,7 @@
 .idea
 faceRecognition/at.txt
-faceRecognition/att_faces
-faceRecognition/myFaces
-faceRecognition/myPics
+faceRecognition/att_faces/
+faceRecognition/myFaces/*
+faceRecognition/myPics/*
 
 !.gitkeep
