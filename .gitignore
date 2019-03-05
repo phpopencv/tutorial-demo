@@ -5,3 +5,6 @@ faceRecognition/myFaces/*
 faceRecognition/myPics/*
 
 !.gitkeep
+composer.lock
+vendor
+core

@@ -1,0 +1,8 @@
+{
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "require-dev": {
+        "hihozhou/php-opencv-ide-helper": "dev-master"
+    }
+}
