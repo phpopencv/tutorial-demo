@@ -21,11 +21,7 @@ $dstPoints = [
 ];
 $mat = getPerspectiveTransform($srcPoints, $dstPoints, CV\DECOMP_LU);
 
-var_dump($mat);
-$mat->print();
-
 $image = imread("1.png");
-$perspective = new \CV\Mat(1, 1, \CV\CV_8UC3);
 $perspective = null;
 warpPerspective($image, $perspective, $mat, new Size(960, 270), 1);
 \CV\imshow('test', $perspective);
